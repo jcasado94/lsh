@@ -123,6 +123,9 @@ def main(argv=None):
     print(getClosestImgBruteForce(me.data, 7))
     print(getClosestImgHashing(me, 7)) # different results, due to different methods
 
+    print(getClosestImgBruteForce(me.data, 0))
+    print(getClosestImgHashing(me, 0)) # same results
+
     return
 
 
